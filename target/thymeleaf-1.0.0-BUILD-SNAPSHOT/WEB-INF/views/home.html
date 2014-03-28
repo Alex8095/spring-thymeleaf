@@ -1,0 +1,9 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:include="thymeleaf/layout :: headerFragment">
+ 	<!-- replaced with fragment content -->
+ 	</head>
+	<body>
+		<div th:include="thymeleaf/layout :: menuFragment"></div>
+		<P>The time on the server is ${serverTime}.</P>
+	</body>
+</html>
